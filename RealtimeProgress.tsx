@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SDG_GOALS } from '../constants';
+import { SDG_GOALS } from './constants';
 
 const RealtimeProgress: React.FC = () => {
   const [hoveredGoalId, setHoveredGoalId] = useState<number | null>(null);
