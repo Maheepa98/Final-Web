@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { HashRouter as Router, Routes, Route, useNavigate, useParams } from 'react-router-dom';
-import Hero from './Hero';
-import MapSection from './components/MapSection';
-import SDGGrid from './components/SDGGrid';
-import ComparisonSlider from './components/ComparisonSlider';
-import DeepDive from './components/DeepDive';
-import WhyWeCare from './components/WhyWeCare';
-import RealtimeProgress from './components/RealtimeProgress';
-import ProjectDetail from './components/ProjectDetail';
+import Hero from './Hero.tsx';
+import MapSection from '.MapSection.tsx';
+import SDGGrid from '.SDGGrid.tsx';
+import ComparisonSlider from '.ComparisonSlider.tsx';
+import DeepDive from '.DeepDive.tsx';
+import WhyWeCare from '.WhyWeCare.tsx';
+import RealtimeProgress from '.RealtimeProgress.tsx';
+import ProjectDetail from '.ProjectDetail.tsx';
 
 const LandingPage: React.FC = () => {
   const [zoomToSriLanka, setZoomToSriLanka] = useState(false);
