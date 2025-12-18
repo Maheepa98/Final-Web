@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Project } from '../types';
-import { PROJECTS } from '../constants';
+import { PROJECTS } from './constants';
 import { ArrowLeft, MapPin, Calendar, Target, CheckCircle } from 'lucide-react';
 
 interface ProjectDetailProps {
