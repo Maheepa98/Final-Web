@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { HashRouter as Router, Routes, Route, useNavigate, useParams } from 'react-router-dom';
-import Hero from './components/Hero';
+import Hero from './Hero';
 import MapSection from './components/MapSection';
 import SDGGrid from './components/SDGGrid';
 import ComparisonSlider from './components/ComparisonSlider';
