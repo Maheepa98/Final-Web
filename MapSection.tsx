@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import * as topojson from 'topojson-client';
-import { MAP_GEOJSON_URL, SRI_LANKA_GEOJSON_URL, PROJECTS } from '../constants';
+import { MAP_GEOJSON_URL, SRI_LANKA_GEOJSON_URL, PROJECTS } from './constants';
 import { ArrowRight } from 'lucide-react';
 
 interface MapSectionProps {
