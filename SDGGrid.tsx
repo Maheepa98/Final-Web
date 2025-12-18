@@ -1,5 +1,5 @@
 import React from 'react';
-import { SDG_GOALS } from '../constants';
+import { SDG_GOALS } from './constants';
 import { SDGGoal } from '../types';
 
 interface SDGGridProps {
